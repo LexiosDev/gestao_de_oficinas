@@ -5,7 +5,6 @@ import FeaturesSection from "@/components/features";
 import StatsSection from "@/components/stats";
 import CallToAction from "@/components/calltoaction";
 import FooterSection from "@/components/footer";
-import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
       <FeaturesSection />
       <StatsSection />
       <CallToAction />
-
       <FooterSection />
     </main>
   );

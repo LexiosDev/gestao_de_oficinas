@@ -5,13 +5,13 @@ export default function FooterSection() {
   return (
     <footer className="py-12 bg-[#171717]">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="flex flex-wrap justify-center gap-12">
-          <div className="order-last flex items-center gap-3 md:order-first">
+        <div className="flex items-center justify-center gap-12">
+          <div className="order-last flex items-center gap-3 md:order-first justify-center">
             <Link href="#" aria-label="go home">
               <LogoIcon />
             </Link>
             <span className="text-muted-foreground block text-center text-sm">
-              © {new Date().getFullYear()} TheOficina, All rights reserved
+              © {new Date().getFullYear()} AutoManager, All rights reserved
             </span>
           </div>
         </div>

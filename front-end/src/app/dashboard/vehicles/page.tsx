@@ -97,10 +97,7 @@ export default function Vehicles() {
                   </div>
                   <div className="grid gap-3">
                     <Label htmlFor="name-1">Problema</Label>
-                    <Input
-                      id="endereco-1"
-                      placeholder="Trocar Pneu"
-                    />
+                    <Input id="endereco-1" placeholder="Trocar Pneu" />
                   </div>
                   <div className="grid gap-3">
                     <Label htmlFor="name-1">Valor Estimado:</Label>
@@ -112,7 +109,9 @@ export default function Vehicles() {
                     />
                   </div>
                   <div className="grid gap-3 mt-3 mb-3 justify-center items-center">
-                    <Label className="font-extrabold" htmlFor="name-1">Adicione imagem com o <AuroraText>PREMIUM</AuroraText>💎</Label>
+                    <Label className="font-extrabold" htmlFor="name-1">
+                      Adicione imagem com o <AuroraText>PREMIUM</AuroraText>💎
+                    </Label>
                   </div>
                 </div>
                 <DialogFooter>
@@ -137,26 +136,29 @@ export default function Vehicles() {
             <CardHeader className="flex justify-center items-center w-full">
               <CardTitle>Carro da Ana</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/14105595/pexels-photo-14105595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>OMK2024</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p></p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
-                  <p>2025</p>
+                  <p>2024</p>
                 </div>
               </div>
               <div className="h-full flex items-center">
@@ -165,7 +167,7 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>Pintura</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Valor estimado:</h2>
@@ -180,24 +182,27 @@ export default function Vehicles() {
           </Card>
           <Card className="shadow-md flex justify-center items-center">
             <CardHeader className="flex justify-center items-center w-full">
-              <CardTitle>Carro da Ana</CardTitle>
+              <CardTitle>Carro do João</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>OAS2025</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p></p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
@@ -210,11 +215,11 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>SEM TETO!</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Valor estimado:</h2>
-                  <p>R$234</p>
+                  <p>R$999</p>
                 </div>
                 <div className="flex flex-row gap-2 justify-center items-center">
                   <h2>Status:</h2>
@@ -225,24 +230,27 @@ export default function Vehicles() {
           </Card>
           <Card className="shadow-md flex justify-center items-center">
             <CardHeader className="flex justify-center items-center w-full">
-              <CardTitle>Carro da Ana</CardTitle>
+              <CardTitle>Carro da Camila</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/968398/pexels-photo-968398.jpeg"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>OQN2025</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p></p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
@@ -255,11 +263,11 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>Trocar espelhos</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Valor estimado:</h2>
-                  <p>R$234</p>
+                  <p>R$300</p>
                 </div>
                 <div className="flex flex-row gap-2 justify-center items-center">
                   <h2>Status:</h2>
@@ -270,24 +278,27 @@ export default function Vehicles() {
           </Card>
           <Card className="shadow-md flex justify-center items-center">
             <CardHeader className="flex justify-center items-center w-full">
-              <CardTitle>Carro da Ana</CardTitle>
+              <CardTitle>Carro da Elisa</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/14105595/pexels-photo-14105595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>CBA2025</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p></p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
@@ -300,11 +311,11 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>Trocar Oleo</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Valor estimado:</h2>
-                  <p>R$234</p>
+                  <p>R$999</p>
                 </div>
                 <div className="flex flex-row gap-2 justify-center items-center">
                   <h2>Status:</h2>
@@ -315,24 +326,27 @@ export default function Vehicles() {
           </Card>
           <Card className="shadow-md flex justify-center items-center">
             <CardHeader className="flex justify-center items-center w-full">
-              <CardTitle>Carro da Ana</CardTitle>
+              <CardTitle>Carro do Pedro</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>BCD2025</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p></p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
@@ -345,11 +359,11 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>Encher Pneu</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Valor estimado:</h2>
-                  <p>R$234</p>
+                  <p>R$20</p>
                 </div>
                 <div className="flex flex-row gap-2 justify-center items-center">
                   <h2>Status:</h2>
@@ -360,28 +374,31 @@ export default function Vehicles() {
           </Card>
           <Card className="shadow-md flex justify-center items-center">
             <CardHeader className="flex justify-center items-center w-full">
-              <CardTitle>Carro da Ana</CardTitle>
+              <CardTitle>Carro do Bero</CardTitle>
             </CardHeader>
-            <Image
-              src="https://images.pexels.com/photos/968398/pexels-photo-968398.jpeg"
-              alt="imgthumb"
-              width="300"
-              height="315"
-              className="rounded-3xl"
-            ></Image>
+            <div className="h-full w-full flex justify-center items-center p-2">
+              <Image
+                src="https://images.pexels.com/photos/2528368/pexels-photo-2528368.jpeg"
+                alt="imgthumb"
+                width="1"
+                height="1"
+                layout="responsive"
+                className="rounded-3xl"
+              ></Image>
+            </div>
             <CardContent className="flex flex-row justify-center w-full items-center gap-4">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-2">
                   <h2>Placa:</h2>
-                  <p>ABC2025</p>
+                  <p>Não Tem</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Modelo:</h2>
-                  <p>Honda</p>
+                  <p>Desconhecido</p>
                 </div>
                 <div className="flex flex-row gap-2">
                   <h2>Ano:</h2>
-                  <p>2025</p>
+                  <p>1923 (eu acho)</p>
                 </div>
               </div>
               <div className="h-full flex items-center">
@@ -390,11 +407,11 @@ export default function Vehicles() {
               <div className="flex flex-col justify-end items-center">
                 <div className="flex flex-row gap-2">
                   <h2>Problema:</h2>
-                  <p>Trocar Pneu</p>
+                  <p>TDS!</p>
                 </div>
                 <div className="flex flex-row gap-2">
-                  <h2>Valor estimado:</h2>
-                  <p>R$234</p>
+                  <h2>Valor:</h2>
+                  <p>MILHOES!🌽🌽</p>
                 </div>
                 <div className="flex flex-row gap-2 justify-center items-center">
                   <h2>Status:</h2>

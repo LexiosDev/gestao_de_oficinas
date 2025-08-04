@@ -197,7 +197,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
             E-mail
           </Label>
           <Input
-            className="hover:bg-input/30 focus-visible:bg-background dark:hover:bg-input/30 dark:focus-visible:bg-input/30 h-8 w-full max-w-xs mx-auto border-transparent bg-transparent text-center shadow-none focus-visible:border dark:bg-transparent"
+            className="hover:bg-input/30  focus-visible:bg-background dark:hover:bg-input/30 dark:focus-visible:bg-input/30 h-8 w-full max-w-xs mx-auto border-transparent bg-transparent text-center shadow-none focus-visible:border dark:bg-transparent"
             defaultValue={row.original.target}
             id={`${row.original.id}-email`}
           />
@@ -438,7 +438,7 @@ export function DataTable({
             </DialogContent>
           </form>
         </Dialog>
-        <TabsList className="**:data-[slot=badge]:bg-muted-foreground/30 hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:px-1 @4xl/main:flex">
+        <TabsList className="**:data-[slot=badge]:bg-muted-foreground/30  hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:px-1 @4xl/main:flex">
           <TabsTrigger value="outline">Outline</TabsTrigger>
           <TabsTrigger value="past-performance">
             Past Performance <Badge variant="secondary">3</Badge>

@@ -7,7 +7,7 @@ import { AuroraText } from "./magicui/aurora-text";
 
 export default function Pricing() {
   return (
-    <div className="bg-muted py-2 md:py-4">
+    <div className="bg-muted py-2 md:py-4 dark:bg-[#0a0a0a]">
       <div className="mx-auto max-w-5xl px-6">
         <div className="mx-auto text-center">
           <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl w-full">

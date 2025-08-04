@@ -67,7 +67,7 @@ export const HeroHeader = () => {
                   {menuItems.map((item, index) => (
                     <li key={index}>
                       <Button asChild variant="ghost" size="sm">
-                        <Link href={item.href} className="text-base">
+                        <Link href={item.href} className="text-base flex justify-center items-center">
                           <span>{item.name}</span>
                         </Link>
                       </Button>
