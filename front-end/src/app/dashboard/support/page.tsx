@@ -43,7 +43,7 @@ export default function Support() {
         <div className="flex flex-1 flex-col justify-center items-center gap-4 p-4 w-full bg-muted/50">
           <div className="w-1/2">
             <h1 className="text-center text-2xl font-bold">Suporte</h1>
-            <form className="flex flex-col gap-4 bg-white p-6 rounded-xl justify-center items-center">
+            <form className="flex flex-col gap-4 bg-white p-6 rounded-xl justify-center items-center dark:bg-[#171717] dark:border-2">
               <div className="w-full">
                 <label
                   htmlFor="type"

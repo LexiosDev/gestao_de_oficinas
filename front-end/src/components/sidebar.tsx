@@ -76,7 +76,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                         <a
                           href={item.url}
                           className={
-                            item.Highlight ? "cursor-not-allowed bg-gray-300 opacity-50" : ""
+                            item.Highlight ? "cursor-not-allowed bg-gray-300 opacity-50 dark:bg-gray-950" : ""
                           }
                         >
                           {item.title}

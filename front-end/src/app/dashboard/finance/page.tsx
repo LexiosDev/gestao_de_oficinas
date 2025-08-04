@@ -64,8 +64,8 @@ export default function Finance() {
           </Breadcrumb>
         </header>
 
-        <div className="flex flex-1 flex-col p-4 w-full">
-          <div className="bg-white rounded-xl shadow p-6 max-w-3xl mx-auto mt-4 flex flex-col items-center justify-center text-center w-full">
+        <div className="flex flex-1 flex-col p-4 w-full ">
+          <div className="bg-white rounded-xl shadow p-6 max-w-3xl dark:bg-[#171717] mx-auto dark:border-2 mt-4 flex flex-col items-center justify-center text-center w-full">
             <h2 className="text-2xl font-bold mb-2 w-full">Finanças</h2>
             <div className="flex items-center justify-center mb-4 gap-2 text-center">
               <span className="text-lg">Lucro do mês:</span>
@@ -78,7 +78,7 @@ export default function Finance() {
             </Button>
           </div>
 
-          <div className="bg-white rounded-xl shadow p-6 max-w-3xl mx-auto mt-4 flex flex-col items-center w-full">
+          <div className="bg-white dark:bg-[#171717] rounded-xl shadow p-6 max-w-3xl mx-auto mt-4 flex dark:border-2 flex-col items-center w-full">
             <h3 className="text-lg font-bold mb-2">Gráfico</h3>
             <div className="w-full h-40 bg-gray-900 rounded flex items-center justify-center">
               <span className="text-white">
@@ -87,7 +87,7 @@ export default function Finance() {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl shadow p-6 max-w-3xl mx-auto mt-4 w-full">
+          <div className="bg-white rounded-xl shadow p-6 max-w-3xl mx-auto mt-4 w-full dark:bg-[#171717] dark:border-2">
             <h3 className="text-lg font-bold mb-4">Serviços Recentes</h3>
             <ul className="divide-y">
               <li className="py-2 flex justify-between">

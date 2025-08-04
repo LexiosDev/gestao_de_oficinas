@@ -5,24 +5,27 @@ import { HeroHeader } from "./header";
 import { ChevronRight, CirclePlay } from "lucide-react";
 import Image from "next/image";
 import { AuroraText } from "@/components/magicui/aurora-text";
+import { Particles } from "./magicui/particles";
 
 export default function HeroSection() {
   return (
     <div>
+      <Particles className="absolute overflow-hidden h-full w-full z-50" />
       <HeroHeader />
-      <main className="overflow-hidden h-[100dvh]">
+      <main className="overflow-hidden h-[100dvh] w-full">
         <section className="bg-linear-to-b to-muted from-background">
-          <div className="relative py-20 md:py-26">
+          <div className="relative py-20 md:py-26 dark:bg-[#0a0a0a]">
             <div className="relative z-10 mx-auto w-full max-w-5xl px-6">
               <div className="md:w-1/2">
+    
                 <div>
-                  <h1 className="max-w-md text-balance text-5xl font-medium md:text-6xl">
-                    Gestão de oficina sem <AuroraText>complicação</AuroraText>
-                  </h1>
+                    <h1 className="max-w-md text-balance text-5xl font-medium md:text-6xl">
+                      Gestão de oficina sem<AuroraText>complicação</AuroraText>
+                    </h1>
                   <p className="text-muted-foreground my-8 max-w-2xl text-balance text-xl">
                     Tudo o que você precisa, em um só lugar. Agendamentos,
-                    ordens de serviço, estoque,<br></br> financeiro e muito mais tudo
-                    dentro do seu app<br></br> de oficina.
+                    ordens de serviço, estoque,<br></br> financeiro e muito mais
+                    tudo dentro do seu app<br></br> de oficina.
                   </p>
 
                   <div className="flex items-center gap-3">
@@ -37,23 +40,25 @@ export default function HeroSection() {
                       asChild
                       size="lg"
                       variant="outline"
-                      className="pl-5"
+                      className="pl-5 dark:bg-[#e6e6e6] dark:text-black"
                     >
                       <Link href="#link">
-                        <CirclePlay className="fill-primary/25 stroke-primary" />
-                        <span className="text-nowrap">Assista ao vídeo (Em breve...)</span>
+                        <CirclePlay className="fill-primary/25 stroke-primary dark:stroke-black" />
+                        <span className="text-nowrap">
+                          Assista ao vídeo (Em breve...)
+                        </span>
                       </Link>
                     </Button>
                   </div>
                 </div>
 
                 <div className="mt-10">
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground dark:white">
                     Feito com ❤️ na primeira maratona da:
                   </p>
                   <div className="mt-3 grid max-w-sm grid-cols-3 gap-6 ">
                     <div className="flex">
-                      <div className="flex gap-3 p-2 bg-gray-300 rounded-2xl">
+                      <div className="flex gap-3 p-2 bg-gray-300 dark:bg-gray-800 rounded-2xl">
                         <span className="text-left text-dracula-foreground text-3xl font-normal transition-all duration-150">
                           ⚗️
                         </span>
@@ -75,7 +80,7 @@ export default function HeroSection() {
                     alt="app screen"
                     width="2880"
                     height="1842"
-                    className="object-top-left size-full object-cover"
+                    className="object-top-left size-full object-cover dark:brightness-65"
                   />
                 </div>
               </div>

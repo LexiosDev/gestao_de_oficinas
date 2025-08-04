@@ -45,7 +45,7 @@ export default function Welcome() {
             <CardHeader>
               <CardTitle className="text-3xl md:text-4xl font-bold flex justify-center items-center">
                 <p>
-                  🎉🚀 Bem-vindo à nossa <AuroraText>plataforma</AuroraText>{" "}
+                  🎉🚀 Bem-vindo à nossa <AuroraText>Plataforma</AuroraText>{" "}
                   🔧📊
                 </p>
               </CardTitle>

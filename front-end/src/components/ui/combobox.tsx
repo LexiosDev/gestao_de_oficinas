@@ -47,7 +47,7 @@ export function ComboboxPopover() {
     <div className="flex items-center space-x-4">
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
-          <Button className="w-[110px] bg-white text-black border-none hover:bg-black/10 overflow-hidden">
+          <Button className="w-[110px] bg-white dark:bg-[#171717] dark:text-white text-black border-none hover:bg-black/10 overflow-hidden">
             {selectedStatus ? <>{selectedStatus.label}</> : <>...</>}
           </Button>
         </PopoverTrigger>
