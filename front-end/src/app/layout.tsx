@@ -2,6 +2,7 @@
 
 import "./globals.css";
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -48,6 +49,7 @@ export default function RootLayout({
           </svg>
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );
